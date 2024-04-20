@@ -1,0 +1,9 @@
+.imageBox {
+    width: 100%;
+    aspect-ratio: 16/5;
+    position: relative;
+    transition: .3s all;
+}
+.indicator {
+    transition: all .2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
