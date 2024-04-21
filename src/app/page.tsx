@@ -1,5 +1,8 @@
 import React from "react";
-import Slider from "./components/ImageSlider/Slider";
+import CategoriesSlider from "@/components/CategoriesSlider/CategoriesSlider";
+import BannerSlider from "@/components/ImageSlider/Slider";
+import Divider from "@/components/Divider/Divider";
+import { aboreto } from "@/fonts/fonts";
 
 const page = () => {
   const sliderImages = [
@@ -22,7 +25,14 @@ const page = () => {
   ];
   return (
     <div>
-      <Slider images={sliderImages} autoPlay/>
+      <BannerSlider images={sliderImages} autoPlay />
+      <Divider/>
+      <h1
+        className={`${aboreto.className} text-2xl md:text-3xl px-4 md:px-20 mt-4 text-gray-700 font-bold`}
+      >
+        Our Featured Product Categories
+      </h1>
+      <CategoriesSlider />
     </div>
   );
 };

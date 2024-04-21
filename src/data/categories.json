@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Mango Pulp & Slices",
+    "slug": "mango-pulp-slices",
+    "short_desc": "Enjoy the irresistible, thick, golden Mango Pulp made from garden fresh Mangoes.",
+    "image": "http://aditifoods.com/images/product/mango/rantagiri/mango-pulp-natural-850-gm.png",
+    "banner": "http://aditifoods.com/images/banners/banner-mango.jpg"
+  },
+  {
+    "title": "Fruit Pulp & Slices",
+    "slug": "fruit-pulp-slices",
+    "short_desc": "Savour the rich and succulent range exclusively from the gardens.",
+    "image": "http://aditifoods.com/images/product/pulp-slices/fruit-cocktail.png",
+    "banner": "http://aditifoods.com/images/banners/banner-pulp.jpg"
+  },
+  {
+    "title": "Fruit Jams & Syrups",
+    "slug": "fruit-jams-syrups",
+    "short_desc": "Making mouth watering snacks for kids has never been so easy!",
+    "image": "http://aditifoods.com/images/product/jams/mango-jams/mango_jam_500gm.png",
+    "banner": "http://aditifoods.com/images/banners/banner-jam.jpg"
+  },
+  {
+    "title": "Fruit Bars, Candies & Tutti Frutti",
+    "slug": "fruit-bars-candies-tutti-frutti",
+    "short_desc": "Satisfy those small hunger pangs with this wide, scrumptious array which is healthy too!",
+    "image": "http://aditifoods.com/images/product/bar/fruit_candies/tooty_fruity/green_100gm.png",
+    "banner": "http://aditifoods.com/images/banners/banner-bar.jpg"
+  },
+  {
+    "title": "Chutneys & Pickles",
+    "slug": "chutneys-pickles",
+    "short_desc": "Include the spicy and tangy factor in your meals.",
+    "image": "http://aditifoods.com/images/product/bar/fruit_candies/tooty_fruity/green_100gm.png",
+    "banner": "http://aditifoods.com/images/banners/banner-chutney.jpg"
+  },
+  {
+    "title": "Canned Vegetable in Brine",
+    "slug": "canned-vegetable-brine",
+    "short_desc": "Taste the canned vegetables picked at the peak of their freshness.",
+    "image": "http://aditifoods.com/images/product/canned/baby_corn/baby_corn_450gm.png",
+    "banner": "http://aditifoods.com/images/banners/banner-mango.jpg"
+  },
+  {
+    "title": "Tomato Ketchup & Sauces",
+    "slug": "tomato-ketchup-sauces",
+    "short_desc": "Constant companions of every delicious meal.",
+    "image": "http://aditifoods.com/images/product/canned/baby_corn/baby_corn_450gm.png",
+    "banner": "http://aditifoods.com/images/banners/banner-mango.jpg"
+  },
+  {
+    "title": "Chinese Sauces & Vinegar",
+    "slug": "chinese-sauces-vinegar",
+    "short_desc": "Add the authentic Chinese taste to your food!",
+    "image": "http://aditifoods.com/images/product/ketchup_sauce/dark_sauce/aditi_dark_sauce/dark_soya_sauce_700gm.png",
+    "banner": "http://aditifoods.com/images/banners/banner-mango.jpg"
+  }
+]

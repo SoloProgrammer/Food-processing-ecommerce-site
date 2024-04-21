@@ -91,7 +91,7 @@ const Slider = ({ images, autoPlay = false, duration = 3000 }: SliderProps) => {
 type SliderTabsProps = {
   handleTabChange: (
     e: React.MouseEvent<HTMLDivElement, MouseEvent>,
-    i: number
+    tabIndex: number
   ) => void;
   tabs: String[];
   tabRefs: React.MutableRefObject<HTMLDivElement[]>;

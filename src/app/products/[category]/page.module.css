@@ -1,0 +1,26 @@
+.sideBar {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.3px 0px 2.6px;
+    max-width: 300px;
+    min-width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.main .banner {
+    width: 100%;
+    aspect-ratio: 100/23;
+    position: relative;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.banner img {
+    object-fit: cover;
+}
