@@ -22,7 +22,7 @@ const page = () => {
   ];
   return (
     <div>
-      <Slider images={sliderImages} />
+      <Slider images={sliderImages} autoPlay/>
     </div>
   );
 };

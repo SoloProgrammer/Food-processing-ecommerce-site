@@ -14,12 +14,14 @@ import Image from "next/image";
 
 type SliderProps = {
   images: ImageType[];
+  autoPlay?: boolean;
+  duration?: number;
 };
-const Slider = ({ images }: SliderProps) => {
+const Slider = ({ images, autoPlay = false, duration = 3000 }: SliderProps) => {
   const [currSlide, setCurrSlide] = useState(1);
   const inidicatorRef = useRef<HTMLDivElement>(null);
 
-  // Initiating tab indicator default position 
+  // Initiating tab indicator default position
   useEffect(() => {
     if (inidicatorRef.current) {
       inidicatorRef.current.style.left = "8px";
@@ -33,13 +35,16 @@ const Slider = ({ images }: SliderProps) => {
   ) => {
     setCurrSlide(i + 1);
   };
-  
+
   const tabRefs = useRef<HTMLDivElement[]>([]);
+
   // autoplay slider logic
   useEffect(() => {
+    if (!autoPlay) return;
+
     const sliderTimer = setInterval(() => {
       setCurrSlide((prev) => (prev > 3 ? 1 : prev + 1));
-    }, 3000);
+    }, duration);
 
     return () => {
       clearInterval(sliderTimer);
