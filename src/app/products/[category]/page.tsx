@@ -14,7 +14,7 @@ const page = ({ params }: PageProps) => {
 
   return (
     <div className={`${styles.container} flex w-full h-full`}>
-      <aside className={`${styles.sideBar} h-auto`}>
+      <aside className={`${styles.sideBar} !h-auto`}>
         {categories.map((cat) => (
           <Link
             href={`/products/${cat.slug}`}
