@@ -1,0 +1,28 @@
+[
+  {
+    "images": [
+      "http://aditifoods.com/images/product/mango/supreme-gold/alphonso-mango-sweetened-850gm.png"
+    ],
+    "title": "Supreme Gold Alphonso Mango Pulp Sweetened",
+    "cat_slug": "mango-pulp-slices",
+    "details": {
+      "Nature of products": "Thick, Unsweetened, golden yellow alphonso mango pulp, prepared from selected garden fresh Ratnagiri alphonso mangoes.",
+      "Ingredients": "Alphonso Mango Pulp, Acidity Regulator INS-330",
+      "Specifications": {
+        "TSS": "29 ± 1° Brix",
+        "Acidity": "0.40 - 0.60 %",
+        "Viscosity": "24 - 26 Seconds.",
+        "pH": "3.5 - 4.2"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "128.469 Kcal",
+        "Carbohydrates": "30.50 gm",
+        "Proteins": "0.76 gm",
+        "Fats": "0.38 gm",
+        "Sugar": "14.2 gm",
+        "Vitamin-A": "0.72 mg",
+        "Vitamin-C": "7.31 mg"
+      }
+    }
+  }
+]
