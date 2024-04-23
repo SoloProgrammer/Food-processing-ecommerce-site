@@ -13,22 +13,25 @@ export type ProductCategory = {
 export type Product = {
   images: string[];
   title: string;
+  cat_slug: string;
   details: {
-    "Nature of products": string;
-    "Packing size": Object;
-    Ingredients: string;
-    Specifications: {
+    "Nature of products"?: string;
+    Ingredients?: string;
+    Specifications?: {
       TSS: string;
       Acidity: string;
       pH: string;
       Salt?: string;
     };
-    "Nutritional values per 100gm of product": {
-      Energy: string;
-      Carbohydrates: string;
-      Proteins: string;
-      Fats: string;
-      Sugar: string;
+    "Nutritional values per 100gm of product"?: {
+      Energy?: string;
+      Carbohydrates?: string;
+      Proteins?: string;
+      Fats?: string;
+      Sugar?: string;
+      "Vitamin-A"?: string;
+      "Vitamin-C"?: string;
     };
+    Uses?: string;
   };
 };
