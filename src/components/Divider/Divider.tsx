@@ -6,9 +6,9 @@ type DividerProps = {
 };
 const Divider = ({ className }: DividerProps) => {
   return (
-    <div className={cn("px-3 md:px-20 my-7 md:my-10", className)}>
-      <div className="h-1 bg-gray-200 rounded overflow-hidden">
-        <div className="w-24 h-full bg-indigo-500"></div>
+    <div className={cn("w-full", className)}>
+      <div className="h-1 bg-gray-200 rounded overflow-hidden w-full">
+        <div className="w-[20%] h-full bg-indigo-500"></div>
       </div>
     </div>
   );
