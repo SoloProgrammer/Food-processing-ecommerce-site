@@ -16,15 +16,15 @@ const Sidebar = ({ slug, className, isOpen = "false" }: SidebarProps) => {
       <Link href={{ pathname: `/products/${slug}` }}>
         <div
           className={`${
-            isOpen !== "true" ? "hidden" : ""
-          } w-full z-10 h-full fixed mds:hidden bg-gray-900 opacity-30 top-0`}
+            isOpen !== "true" ? "opacity-0 select-none pointer-events-none" : "opacity-70"
+          } w-full z-10 h-full fixed mds:hidden bg-black top-0 transition-opacity`}
         />
       </Link>
       <aside
         className={cn(
           `${styles.sideBar} ${
             isOpen === 'true' ? "!left-0" : ""
-          } !h-auto transition-all relative z-20`,
+          } !h-auto transition-all relative z-20 duration-300`,
           className
         )}
       >
