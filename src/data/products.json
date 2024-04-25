@@ -1,5 +1,6 @@
 [
   {
+    "id": "001",
     "images": [
       "http://aditifoods.com/images/product/mango/supreme-gold/alphonso-mango-sweetened-850gm.png"
     ],
@@ -22,6 +23,464 @@
         "Sugar": "14.2 gm",
         "Vitamin-A": "0.72 mg",
         "Vitamin-C": "7.31 mg"
+      }
+    }
+  },
+  {
+    "id": "002",
+    "images": [
+      "http://www.aditifoods.com/images/product/mango/rantagiri/natural/mango-pulp-natural-sweet-3kg.png"
+    ],
+    "title": "Ratnagiri Alphonso Mango Pulp Natural",
+    "cat_slug": "mango-pulp-slices",
+    "details": {
+      "Nature of products": "Thick, Unsweetened, golden yellow alphonso mango pulp, prepared from selected garden fresh Ratnagiri alphonso mangoes.",
+      "Ingredients": "Alphonso Mango Pulp, Acidity Regulator INS-330",
+      "Specifications": {
+        "TSS": "19 ± 1° Brix",
+        "Acidity": "0.45 - 0.65 %",
+        "Viscosity": "24 - 26 Seconds.",
+        "pH": "3.5 - 4.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "73.3 Kcal",
+        "Carbohydrates": "17.62 gm",
+        "Proteins": "0.73 gm",
+        "Fats": "0.1 gm",
+        "Vitamin-A": "0.75 mg",
+        "Vitamin-C": "7.5 mg"
+      }
+    }
+  },
+  {
+    "id": "003",
+    "images": [
+      "http://www.aditifoods.com/images/product/pulp-slices/guava/guava-pulp-450gm.png",
+      "http://www.aditifoods.com/images/product/pulp-slices/guava/guava-pulp-850gm.png"
+    ],
+    "title": "White Guava Pulp Natural",
+    "cat_slug": "fruit-pulp-slices",
+    "details": {
+      "Nature of products": "Thick unsweetened, deep cream white Guava pulp, Prepared from selected garden fresh Guava fruits.",
+      "Ingredients": "Guava Pulp, Acidity Regulator INS-330.",
+      "Specifications": {
+        "TSS": "10 ± 1° Brix",
+        "Acidity": "0.3 - 0.4 %",
+        "Viscosity": "24 - 26 Seconds.",
+        "pH": "4.0 - 5.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "46.33 Kcal",
+        "Carbohydrates": "10.94 gm",
+        "Proteins": "0.44 gm",
+        "Fats": "0.02 gm"
+      }
+    }
+  },
+  {
+    "id": "004",
+    "images": [
+      "http://www.aditifoods.com/images/product/pulp-slices/banana-pulp.png"
+    ],
+    "title": "Banana Pulp",
+    "cat_slug": "fruit-pulp-slices",
+    "details": {
+      "Nature of products": "Thick unsweetened, deep cream Banana pulp, Prepared from selected garden fresh Banana fruits.",
+      "Ingredients": "Banana Pulp, Acidity Regulator INS-330",
+      "Specifications": {
+        "TSS": "10 ± 1° Brix",
+        "Acidity": "0.3 - 0.4 %",
+        "Viscosity": "24 - 26 Seconds.",
+        "pH": "4.0 - 5.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "105 Kcal",
+        "Carbohydrates": "26.84 gm",
+        "Potassium": "322 mg",
+        "Proteins": "1.09 gm",
+        "Fats": "0.33 gm",
+        "Sodium": "1 mg"
+      }
+    }
+  },
+  {
+    "id": "005",
+    "images": [
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mixfruit_jam_100gm.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mixfruit_jam_200gm.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mixfruit_jam_500gm.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mixfruit_jam_1kg.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mixfruit_jam_4kg.png"
+    ],
+    "title": "Mix Fruit Jam",
+    "cat_slug": "fruit-jam-syrups",
+    "details": {
+      "Nature of products": "Sweet & natural fruit jams Prepared from selected garden fresh mix fruit pulp.",
+      "Ingredients": "Sugar, Mix Fruit Pulp (Papaya, Banana, Mango, Pineapple), Stabilizer INS-440, INS-401, Acidity Regulator INS-330, Color INS-122, Preservative INS-211, INS-224",
+      "Specifications": {
+        "TSS": "69 ± 0.5° Brix",
+        "Acidity": "0.4 - 0.8 %",
+        "pH": "2.9 - 3.2"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "279.13 Kcal",
+        "Carbohydrates": "67.75 gm",
+        "Proteins": "0.93 gm",
+        "Fats": "00.49 gm",
+        "Sugar": "63.03 gm"
+      }
+    }
+  },
+  {
+    "id": "005",
+    "images": [
+      "http://www.aditifoods.com/images/product/jams/mango-jams/mango_jam_100gm.png",
+      "http://www.aditifoods.com/images/product/jams/mango-jams/mango_jam_200gm.png",
+      "http://www.aditifoods.com/images/product/jams/mango-jams/mango_jam_500gm.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mango_jam_1kg.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mango_jam_4kg.png"
+    ],
+    "title": "Mango Fruit Jam",
+    "cat_slug": "fruit-jam-syrups",
+    "details": {
+      "Nature of products": "Sweet & natural fruit jams Prepared from mango fruit pulp.",
+      "Ingredients": "Sugar, Mango Pulp, Stabilizer INS-440, INS-401, Acidity Regulator INS-330, Preservative INS-211, INS-224, Colour 110, Contains Permitted Class II Preservative, Colour & Flavour",
+      "Specifications": {
+        "TSS": "69 ± 0.5° Brix",
+        "Acidity": "0.45 - 0.7 %",
+        "pH": "2.9 - 3.2"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "304.17 Kcal",
+        "Carbohydrates": "74.72 gm",
+        "Proteins": "00.49 gm",
+        "Fats": "00.37 gm",
+        "Sugar": "81.33 %"
+      }
+    }
+  },
+  {
+    "id": "006",
+    "images": [
+      "http://www.aditifoods.com/images/product/jams/mango-jams/mango_jam_100gm.png",
+      "http://www.aditifoods.com/images/product/jams/mango-jams/mango_jam_200gm.png",
+      "http://www.aditifoods.com/images/product/jams/mango-jams/mango_jam_500gm.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mango_jam_1kg.png",
+      "http://www.aditifoods.com/images/product/jams/mix-jams/mango_jam_4kg.png"
+    ],
+    "title": "Rose Syrup",
+    "cat_slug": "fruit-jam-syrups",
+    "details": {
+      "Nature of products": "Prepared from Synthetic Rose flavor & Rose Petals.",
+      "Ingredients": "sugar, water, rose petals, rose flavor, acidity regulator INS-330, color INS-122, preservative INS-211.",
+      "Specifications": {
+        "TSS": "68 ± 1° Brix",
+        "Acidity": "0.1 - 0.2 %",
+        "pH": "3.5 - 4.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "279.24 Kcal",
+        "Carbohydrates": "69.26 gm",
+        "Proteins": "0.55 gm",
+        "Fats": "0.0 gm",
+        "Sugar": "65.56 %"
+      }
+    }
+  },
+  {
+    "id": "007",
+    "images": [
+      "http://www.aditifoods.com/images/product/bar/fruit_bar/mango-fruit-bar.png"
+    ],
+    "title": "Mango Fruit Bar",
+    "cat_slug": "fruit-bars-candies-tutti-frutti",
+    "details": {
+      "Nature of products": "Sweet & natural fruit bars. Prepared from Mango Pulp.",
+      "Ingredients": "Mango Fruit Pulp, Sugar, Stabilizer INS-440, Acidity Regulator INS-330, Preservatives INS-224 Natural, Natural Identical Artificial Flavor, Contains Class II Preservative.",
+      "Specifications": {
+        "TSS": "75 - 80° Brix",
+        "Acidity": "1.4 - 4 %",
+        "pH": "3 - 4",
+        "Moisture": "Less Than 20 %"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "336.68 Kcal",
+        "Carbohydrates": "82.78 gm",
+        "Proteins": "1.12 gm",
+        "Fats": "0.12 gm",
+        "Sugar": "71.17 gm"
+      }
+    }
+  },
+  {
+    "id": "008",
+    "images": [
+      "http://www.aditifoods.com/images/product/bar/fruit_bar/tamarind-fruit-bar.png"
+    ],
+    "title": "Tamarind Fruit Bar",
+    "cat_slug": "fruit-bars-candies-tutti-frutti",
+    "details": {
+      "Nature of products": "Sweet & natural fruit bars. Prepared from selected tamarind pulp.",
+      "Ingredients": "Tamarind Pulp, Sugar, Acidity Regulator INS-330, Presevative INS-224, Contain Class II Presevation.",
+      "Specifications": {
+        "TSS": "75 - 85° Brix",
+        "Acidity": "1.4 - 4.7 %",
+        "pH": "2.5 - 3.0",
+        "Moisture": "Less Than 20 %"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "331.78 Kcal",
+        "Carbohydrates": "80.98 gm",
+        "Proteins": "1.74 gm",
+        "Fats": "0.10 gm",
+        "Sugar": "70.89 gm"
+      }
+    }
+  },
+  {
+    "id": "009",
+    "images": [
+      "http://www.aditifoods.com/images/product/bar/fruit_bar/green-fruit-bar.png"
+    ],
+    "title": "Green Mango Fruit Bar",
+    "cat_slug": "fruit-bars-candies-tutti-frutti",
+    "details": {
+      "Nature of products": "Sweet & natural fruit bars. Prepared from selected raw mango pulp.",
+      "Ingredients": "Raw Mango Pulp, Sugar, Stabilizer INS-440, Acidity Regulator INS-330, Preservative INS-224, Contains Permitted Class II Preservative, Color & Flavour.",
+      "Specifications": {
+        "TSS": "70 - 75° Brix",
+        "Acidity": "1.7 - 2.0 %",
+        "pH": "3.0 - 4.0",
+        "Moisture": "Less Than 20 %"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "324.11 Kcal",
+        "Carbohydrates": "80.19 gm",
+        "Proteins": "0.59 gm",
+        "Fats": "0.11 gm",
+        "Sugar": "71.58 gm"
+      }
+    }
+  },
+  {
+    "id": "010",
+    "images": [
+      "http://www.aditifoods.com/images/product/chutneys_pickles/chutneys/chutney_340gm.png",
+      "http://www.aditifoods.com/images/product/chutneys_pickles/chutneys/chutney_1kg.png",
+      "http://www.aditifoods.com/images/product/chutneys_pickles/chutneys/chutney_5kg.png",
+      "http://www.aditifoods.com/images/product/chutneys_pickles/chutneys/chutney_40kg.png"
+    ],
+    "title": "Mango Chutney Sweetened",
+    "cat_slug": "chutneys-pickles",
+    "details": {
+      "Nature of products": "Authentic & Traditional, sweet, sour & spicy, tatsy chutney, prepared from selected fresh raw mango fruits.",
+      "Ingredients": "Mango pieces, Mango paste, Sugar, brewed Vinegar, Salt, Ginger paste, Garlic paste, Red chilli powder, Acetic acid CE260",
+      "Specifications": {
+        "TSS": "62 - 65° Brix",
+        "Acidity": "1.0 - 1.2 %",
+        "Salt": "2.0 - 3 %",
+        "pH": "2.5 - 3.5"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "283.62 Kcal",
+        "Carbohydrates": "68.86 gm",
+        "Proteins": "2.00 gm",
+        "Fats": "00.02 gm",
+        "Sugar": "64.00 gm",
+        "Salt": "-1.00 gm",
+        "Ash": "-1.82 gm",
+        "Moisture": "27.30 gm",
+        "Sodium(NO)": "3218.75 mg"
+      }
+    }
+  },
+  {
+    "id": "011",
+    "images": [
+      "http://www.aditifoods.com/images/product/chutneys_pickles/pickles/pickles_340gm.png",
+      "http://www.aditifoods.com/images/product/chutneys_pickles/pickles/pickles_1kg.png",
+      "http://www.aditifoods.com/images/product/chutneys_pickles/pickles/pickles_2.5kg.png",
+      "http://www.aditifoods.com/images/product/chutneys_pickles/pickles/pickles_5kg.png"
+    ],
+    "title": "Mango Pickle",
+    "cat_slug": "chutneys-pickles",
+    "details": {
+      "Nature of products": "Spicy & Ethic India taste Mango Pickle, prepared form selected garden fresh Mangoes and other edible materials.",
+      "Ingredients": "Mango pieces, Salt, Mix Spices (Red Chilly powder, Turmeric, Fenugreek, Aasafoetida) Mustard oil, Cotton seed oil, Acetic Acid Preservtive INS-211",
+      "Specifications": {
+        "Acidity": "1.8 - 2.0 %",
+        "Salt": "12 - 14 %",
+        "pH": "2.5 to 3.5"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "299.22 Kcal",
+        "Carbohydrates": "41.12 gm",
+        "Proteins": "1.78 gm",
+        "Fats": "14.18 gm",
+        "Calcium": "2.10 gm"
+      }
+    }
+  },
+  {
+    "id": "012",
+    "images": [
+      "http://www.aditifoods.com/images/product/canned/baked_bean/baked_bean_450gm.png"
+    ],
+    "title": "Baked Bean in Tomato Sauce",
+    "cat_slug": "canned-vegetables",
+    "details": {
+      "Nature of products": "Thick sweetened, Tomato Red puree & Baked Bans, prepared from sound & selected farm fresh Tomatoes & White Beans.",
+      "Ingredients": "Tomato puree, backed beans, sugar salt, stabilizer INS-415, INS-412, Acidity Regulator INS-260, Spices, Preservative INS-211.",
+      "Specifications": {
+        "TSS": "25 - 30° Brix",
+        "Acidity": "0.3 - 0.6 %",
+        "Salt": "1.3 %",
+        "pH": "5.0 - 6.5"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "133.36 Kcal",
+        "Carbohydrates": "27.86 gm",
+        "Proteins": "4.13 gm",
+        "Fats": "0.60 gm",
+        "Sugar": "11.66 gm"
+      }
+    }
+  },
+  {
+    "id": "013",
+    "images": [
+      "http://www.aditifoods.com/images/product/canned/sweet_corn_kernel/sweet_corn_kernel_340gm.png",
+      "http://www.aditifoods.com/images/product/canned/sweet_corn_kernel/sweet_corn_kernel_450gm.png"
+    ],
+    "title": "Sweet Corn Kernel",
+    "cat_slug": "canned-vegetables",
+    "details": {
+      "Nature of products": "Prepared from selected fresh sweet corn.",
+      "Ingredients": "Water, Corn kernal, Sugar, Iodised, Salt, Acidity regulator INS-330.",
+      "Specifications": {
+        "TSS": "10 - 14° Brix",
+        "Acidity": "0.01 - 0.02 %",
+        "pH": "5.5 - 6.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "64.85 Kcal",
+        "Carbohydrates": "12.96 gm",
+        "Proteins": "1.07 gm",
+        "Fats": "0.97 gm",
+        "Sugar": "2.4 gm"
+      }
+    }
+  },
+  {
+    "id": "014",
+    "images": [
+      "http://www.aditifoods.com/images/product/ketchup_sauce/aditi_ketchup/aditi_ketchup_200gm.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/aditi_ketchup/aditi_ketchup_500gm.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/aditi_ketchup/aditi_ketchup_1kg.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/aditi_ketchup/aditi_ketchup_1kg_spout_pouch.png"
+    ],
+    "title": "Aditi Tomato Ketchup",
+    "cat_slug": "tomato-ketchup-sauces",
+    "details": {
+      "Nature of products": "Thick, spicy & tasty tomato ketchup. prepared from sound, selected, garden fresh red ripe tomatoes.",
+      "Ingredients": "Tomato puree, Sugar, Salt, Acitidy Regulator INS-260, Stabilizer INS-1422, INS-415, Onion Powder, Garlic Powder & Spices, Preservative INS-211.",
+      "Specifications": {
+        "TSS": "35 - 37° Brix",
+        "Salt": "2 - 2.5 %",
+        "Acidity": "1.0 - 1.1 %",
+        "pH": "3.5 - 4.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "135.20 Kcal",
+        "Carbohydrates": "32.11 gm",
+        "Proteins": "01.24 gm",
+        "Fats": "00.20 gm",
+        "Sugar": "26.94 gm"
+      }
+    }
+  },
+  {
+    "id": "015",
+    "images": [
+      "http://www.aditifoods.com/images/product/ketchup_sauce/pruthvi_sauce/pruthvi_sauce_1kg.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/pruthvi_sauce/pruthvi_sauce_1kg_pet.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/pruthvi_sauce/pruthvi_sauce_5kg.png"
+    ],
+    "title": "Pruthvi Tomato Sauce",
+    "cat_slug": "tomato-ketchup-sauces",
+    "details": {
+      "Nature of products": "Spicy & tasty Tomato Sauce. Prepared from selected, garden fresh red ripe tomatoes.",
+      "Ingredients": "Tomato puree, Sugar, Salt, Acidity Regulator INS-260, Stabilizer INS-415, INS-412,INS-1422, Spice & Preservative INS-211.",
+      "Specifications": {
+        "TSS": "28 - 30° Brix",
+        "Salt": "2.5 - 3.5 %",
+        "Acidity": "1.0 - 1.2 %",
+        "pH": "3.5 - 4.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "105.51 Kcal",
+        "Carbohydrates": "24.70 gm",
+        "Proteins": "1.25 gm",
+        "Fats": "0.19 gm",
+        "Sugar": "22.45 %"
+      }
+    }
+  },
+  {
+    "id": "016",
+    "images": [
+      "http://www.aditifoods.com/images/product/ketchup_sauce/red_chilly_sauce/aditi_red_sauce/aditi_red_sauce_200gm.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/red_chilly_sauce/aditi_red_sauce/aditi_red_sauce_680gm_pet.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/red_chilly_sauce/aditi_red_sauce/aditi_red_sauce_700gm.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/red_chilly_sauce/aditi_red_sauce/aditi_red_sauce_5kg.png"
+    ],
+    "title": "Aditi Red Chilly Sauce",
+    "cat_slug": "chinese-sauces-vinegar",
+    "details": {
+      "Nature of products": "Thick, spicy, hot & sour, tasty sauce, prepared from selected farm fresh red chilies.",
+      "Ingredients": "Vegetable Pulp, Water, Sugar, Red Chilli Powder Cornstarch, Salt, Acidity Regulator INS-260, Stabilizer INS-412,415, Spice & Permitted Class II Preservatives INS-211.",
+      "Specifications": {
+        "TSS": "14 - 15° Brix",
+        "Salt": "5 - 8 %",
+        "Acidity": "1.0 - 1.2 %",
+        "pH": "3.0 - 4.0",
+        "Viscosity": "90 - 110 Sec"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "46.74 Kcal",
+        "Carbohydrates": "8.99 gm",
+        "Proteins": "1.21 gm",
+        "Fats": "0.66 gm",
+        "Sugar": "1.7 gm"
+      }
+    }
+  },
+  {
+    "id": "017",
+    "images": [
+      "http://www.aditifoods.com/images/product/ketchup_sauce/green_chilly_sauce/aditi_green_sauce/green_sauce_200gm.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/green_chilly_sauce/aditi_green_sauce/green_sauce_680gm_pet.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/green_chilly_sauce/aditi_green_sauce/green_sauce_700gm.png",
+      "http://www.aditifoods.com/images/product/ketchup_sauce/green_chilly_sauce/aditi_green_sauce/green_sauce_5kg.png"
+    ],
+    "title": "Aditi Green Chilly Sauce",
+    "cat_slug": "chinese-sauces-vinegar",
+    "details": {
+      "Nature of products": "Thick, spicy, hot & sour, tasty sauce, prepared from selected farm fresh green chilies.",
+      "Ingredients": "Green Chilli pulp, Vegetable Pulp, Sugar, Iodised Salt, Corstarch, Stabilizer INS-412, INS-415, Spice, Acidity Regulator INS-260, Preservative INS-211.",
+      "Specifications": {
+        "TSS": "14 - 15° Brix",
+        "Salt": "5 - 8 %",
+        "Acidity": "1.0 - 1.2 %",
+        "pH": "3.0 - 4.0"
+      },
+      "Nutritional values per 100gm of product": {
+        "Energy": "45.00 Kcal",
+        "Carbohydrates": "10.19 gm",
+        "Proteins": "0.52 gm",
+        "Fats": "0.22 gm",
+        "Viscosity": "90 - 110 Sec",
+        "Sugar": "5.19 gm"
       }
     }
   }

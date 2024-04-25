@@ -4,7 +4,7 @@ import BannerSlider from "@/components/ImageSlider/Slider";
 import Divider from "@/components/Divider/Divider";
 import { aboreto } from "@/fonts/fonts";
 
-const page = () => {
+const HomePage = () => {
   const sliderImages = [
     {
       title: "Mongo Pulp",
@@ -25,8 +25,8 @@ const page = () => {
   ];
   return (
     <div>
-      <BannerSlider images={sliderImages} autoPlay />
-      <Divider/>
+      <BannerSlider images={sliderImages} autoPlay/>
+      <Divider className="px-5 md:px-20 my-14"/>
       <h1
         className={`${aboreto.className} text-2xl md:text-3xl px-4 md:px-20 mt-4 text-gray-700 font-bold`}
       >
@@ -37,4 +37,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HomePage;

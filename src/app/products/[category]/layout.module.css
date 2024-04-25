@@ -1,0 +1,5 @@
+@media screen and (max-width:800px) {
+    .layoutContainer {
+        margin-left: 0px !important;
+    }
+}

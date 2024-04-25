@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-20 flex px-20 py-2 items-center justify-between bg-white shadow-md">
+    <div className="hidden sticky top-0 z-20 md:flex px-20 py-2 items-center justify-between bg-white shadow-md">
       <Link href={"/"}>
         <Image
           src={Logo}
@@ -37,12 +37,12 @@ const Navbar = () => {
           className={`${styles.indicator} absolute top-[-25px] left-[3px] w-20 h-[6px] rounded-sm bg-indigo-500`}
         />
       </div>
-      <div className={`${styles.socialIcons} flex gap-3`}>
+      {/* <div className={`${styles.socialIcons} flex gap-3`}>
         <FaInstagram />
         <RiTwitterXFill />
         <LuFacebook />
         <AiOutlineYoutube />
-      </div>
+      </div> */}
     </div>
   );
 };

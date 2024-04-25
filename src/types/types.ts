@@ -23,8 +23,8 @@ type ProductNutritionalValues = {
   Proteins: string;
   Fats: string;
   Sugar: string;
-  "Vitamin-A": string;
-  "Vitamin-C": string;
+  "Vitamin A": string;
+  "Vitamin C": string;
 };
 
 export type ProductDetails = {
