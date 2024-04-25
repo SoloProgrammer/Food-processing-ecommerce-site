@@ -28,12 +28,17 @@ const page = ({ params }: PageProps) => {
         <h1 className={`${aboreto.className} text-center text-4xl mt-5 mb-5`}>
           {category.title}
         </h1>
-        <Link href={`?open=true`}>
-          <div className="flex w-full justify-end mds:hidden items-center gap-4 pr-3 md:pr-20 mb-16">
-            <span>View categories: </span>
-            <CustomIcon Icon={<CgMenuRight />} />
-          </div>
-        </Link>
+        <div className="flex w-full justify-end mds:hidden items-center gap-4 pr-3 md:pr-20 mb-16">
+          <span>View categories: </span>
+
+          <CustomIcon
+            Icon={
+              <Link href={`?open=true`}>
+                <CgMenuRight />
+              </Link>
+            }
+          />
+        </div>
         <Products products={products} />
       </main>
     </div>
@@ -115,9 +120,12 @@ const ProductDetail = ({ product }: { product: Product }) => {
                     <div className="overflow-x-auto">
                       <table className="w-full">
                         <thead>
-                          {Object.keys(detailsKey).map((k) => {
+                          {Object.keys(detailsKey).map((k, i) => {
                             return (
-                              <th className="px-3 py-3 border-2 border-gray-200 whitespace-nowrap">
+                              <th
+                                key={i}
+                                className="px-3 py-3 border-2 border-gray-200 whitespace-nowrap"
+                              >
                                 {k}
                               </th>
                             );
@@ -125,9 +133,12 @@ const ProductDetail = ({ product }: { product: Product }) => {
                         </thead>
                         <tbody>
                           <tr>
-                            {Object.values(detailsKey).map((v) => {
+                            {Object.values(detailsKey).map((v, i) => {
                               return (
-                                <td className="text-center px-3 py-2 border-2 border-gray-200 whitespace-nowrap">
+                                <td
+                                  key={i}
+                                  className="text-center px-3 py-2 border-2 border-gray-200 whitespace-nowrap"
+                                >
                                   {v as string}
                                 </td>
                               );
