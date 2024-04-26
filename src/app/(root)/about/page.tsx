@@ -6,7 +6,7 @@ const page = () => {
     <div className="flex items-center justify-center">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-16 mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-10 md:mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
               About FPC
             </h1>
