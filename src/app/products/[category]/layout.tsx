@@ -10,10 +10,7 @@ export default function RootLayout({
   children: React.ReactNode;
   params: {
     category: string;
-  };
-  searchParams: {
-    open: boolean;
-  };
+  }
 }>) {
   const searchParams = useSearchParams();
 
