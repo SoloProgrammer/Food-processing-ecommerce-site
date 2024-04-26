@@ -1,15 +1,42 @@
-import React from "react";
-import { AiOutlineYoutube } from "react-icons/ai";
-import { FaInstagram } from "react-icons/fa";
-import { LuFacebook } from "react-icons/lu";
-import { RiTwitterXFill } from "react-icons/ri";
+"use client";
+import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import Logo from "../../assests/images/logo.png";
+import Logo from "@/assests/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import { CgMenuRight } from "react-icons/cg";
+import { BiSupport } from "react-icons/bi";
+import CustomIconButton from "../CustomIcon/CustomIcon";
+import { usePathname } from "next/navigation";
+const Links = [
+  {
+    name: "Home",
+    redirect: "/",
+  },
+  {
+    name: "About",
+    redirect: "/about",
+  },
+  {
+    name: "Products",
+    redirect: "/products",
+  },
+  {
+    name: "Events",
+    redirect: "/events",
+  },
+  {
+    name: "Contact",
+    redirect: "/contact",
+  },
+];
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const pathName = usePathname();
+  const isActiveLink = (linkPath: string) => pathName === linkPath;
+
   return (
-    <div className="hidden sticky top-0 z-20 md:flex px-20 py-2 items-center justify-between bg-white shadow-md">
+    <header className="sticky top-0 z-20 flex px-5 md:px-20 py-2 items-center justify-between bg-white shadow-md">
       <Link href={"/"}>
         <Image
           src={Logo}
@@ -17,33 +44,48 @@ const Navbar = () => {
           className="w-[60px] md:w-[100px] hue-rotate-[197deg]"
         />
       </Link>
-      <div className="flex gap-2 relative">
-        <span className="px-5 bg rounded-md py-1 font-bold text-gray-800 cursor-pointer">
-          Home
-        </span>
-        <span className="px-5 bg rounded-md py-1 font-medium text-slate-500">
-          About Us
-        </span>
-        <span className="px-5 bg rounded-md py-1 font-medium text-slate-500">
-          Products
-        </span>
-        <span className="px-5 bg rounded-md py-1 font-medium text-slate-500">
-          Events
-        </span>
-        <span className="px-5 bg rounded-md py-1 font-medium text-slate-500">
-          Contact
-        </span>
-        <div
-          className={`${styles.indicator} absolute top-[-25px] left-[3px] w-20 h-[6px] rounded-sm bg-indigo-500`}
+      <nav
+        className={`${styles.nav} ${
+          open ? "!h-[235px] !py-3" : ""
+        } shadow-md md:shadow-none flex gap-2 relative transition-all`}
+      >
+        {Links.map((link) => (
+          <Link
+            key={link.name}
+            href={link.redirect}
+            className={`${
+              isActiveLink(link.redirect)
+                ? "!border-indigo-500 !text-indigo-500 bg-indigo-100"
+                : ""
+            } px-5 bg border border-transparent rounded-md py-1 font-medium text-gray-500 cursor-pointer`}
+          >
+            {link.name}
+          </Link>
+        ))}
+      </nav>
+      <div
+        tabIndex={1}
+        onBlur={() => setOpen(false)}
+        className="flex items-center gap-3"
+      >
+        <CustomIconButton
+          onClick={(e) => {
+            e.stopPropagation();
+            setOpen(!open);
+          }}
+          className="md:hidden"
+          Icon={<CgMenuRight />}
+        />
+        <CustomIconButton
+          className="text-xl"
+          Icon={
+            <Link href={"/contact"}>
+              <BiSupport />
+            </Link>
+          }
         />
       </div>
-      {/* <div className={`${styles.socialIcons} flex gap-3`}>
-        <FaInstagram />
-        <RiTwitterXFill />
-        <LuFacebook />
-        <AiOutlineYoutube />
-      </div> */}
-    </div>
+    </header>
   );
 };
 
