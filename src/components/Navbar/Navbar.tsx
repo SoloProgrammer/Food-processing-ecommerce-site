@@ -7,30 +7,35 @@ import Link from "next/link";
 import { CgMenuRight } from "react-icons/cg";
 import { BiSupport } from "react-icons/bi";
 import CustomIconButton from "../CustomIcon/CustomIcon";
-import { usePathname } from "next/navigation";
-const Links = [
-  {
-    name: "Home",
-    redirect: "/",
-  },
-  {
-    name: "About",
-    redirect: "/about",
-  },
-  {
-    name: "Products",
-    redirect: "/products/mango-pulp-slices",
-  },
-  {
-    name: "Events",
-    redirect: "/events",
-  },
-  {
-    name: "Contact",
-    redirect: "/contact",
-  },
-];
+import { useParams, usePathname } from "next/navigation";
+
 const Navbar = () => {
+  const params = useParams()
+  console.log(params);
+  
+  const Links = [
+    {
+      name: "Home",
+      redirect: "/",
+    },
+    {
+      name: "About",
+      redirect: "/about",
+    },
+    {
+      name: "Products",
+      redirect: `/products/${params.category || 'mango-pulp-slices'}`,
+    },
+    {
+      name: "Events",
+      redirect: "/events",
+    },
+    {
+      name: "Contact",
+      redirect: "/contact",
+    },
+  ];
+  
   const [open, setOpen] = useState(false);
   const pathName = usePathname();
 
