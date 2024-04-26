@@ -46,7 +46,7 @@ const Navbar = () => {
       </Link>
       <nav
         className={`${styles.nav} ${
-          open ? "!h-[235px] !py-3" : ""
+          open ? "!h-[245px] !py-3" : ""
         } shadow-md md:shadow-none flex gap-2 relative transition-all`}
       >
         {Links.map((link) => (
@@ -55,7 +55,7 @@ const Navbar = () => {
             href={link.redirect}
             className={`${
               isActiveLink(link.redirect)
-                ? "!border-indigo-500 !text-indigo-500 bg-indigo-100"
+                ? "md:!border-indigo-500 !text-indigo-500 bg-indigo-100"
                 : ""
             } px-5 bg border border-transparent rounded-md py-1 font-medium text-gray-500 cursor-pointer`}
           >
