@@ -19,7 +19,7 @@ const Links = [
   },
   {
     name: "Products",
-    redirect: "/products",
+    redirect: "/products/mango-pulp-slices",
   },
   {
     name: "Events",
@@ -33,8 +33,9 @@ const Links = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const pathName = usePathname();
-  const isActiveLink = (linkPath: string) => pathName === linkPath;
 
+  const isActiveLink = (linkPath: string) =>
+    pathName === linkPath || (pathName.includes(linkPath) && linkPath !== "/");
   return (
     <header className="sticky top-0 z-20 flex px-5 md:px-20 py-2 items-center justify-between bg-white shadow-md">
       <Link href={"/"}>
@@ -55,9 +56,9 @@ const Navbar = () => {
             href={link.redirect}
             className={`${
               isActiveLink(link.redirect)
-                ? "md:!border-indigo-500 !text-indigo-500 bg-indigo-100"
+                ? "md:!border-indigo-500 !text-indigo-500 !bg-indigo-100"
                 : ""
-            } px-5 bg border border-transparent rounded-md py-1 font-medium text-gray-500 cursor-pointer`}
+            } px-5 bg border border-transparent rounded-md py-1 font-medium text-gray-500 cursor-pointer hover:bg-gray-100`}
           >
             {link.name}
           </Link>
