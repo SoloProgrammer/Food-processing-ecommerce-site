@@ -1,22 +1,23 @@
 "use client";
-import React from "react";
-import { IconType } from "react-icons";
+import { cn } from "@/lib/utils";
+import React, { ButtonHTMLAttributes } from "react";
 
-const CustomIcon = ({
-  Icon,
-  onClick,
-}: {
+type CustomIconButtonButtonProps = {
   Icon: React.JSX.Element;
-  onClick?: () => void;
-}) => {
+} & ButtonHTMLAttributes<HTMLButtonElement>;
+
+const CustomIconButton = ({ Icon, onClick, className }: CustomIconButtonButtonProps) => {
   return (
-    <span
+    <button
       onClick={onClick}
-      className="bg-gray-100 p-2 rounded-full border border-gray-300"
+      className={cn(
+        "bg-gray-100 p-2 rounded-full border border-gray-300 cursor-pointer",
+        className
+      )}
     >
       {Icon}
-    </span>
+    </button>
   );
 };
 
-export default CustomIcon;
+export default CustomIconButton;
