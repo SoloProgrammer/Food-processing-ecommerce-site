@@ -3,6 +3,7 @@ import Footer from "@/components/Footer/Footer";
 import Sidebar from "@/components/CategoriesSideBar/Sidebar";
 import styles from "./layout.module.css";
 import { useSearchParams } from "next/navigation";
+import Navbar from "@/components/Navbar/Navbar";
 export default function RootLayout({
   children,
   params,
@@ -10,7 +11,7 @@ export default function RootLayout({
   children: React.ReactNode;
   params: {
     category: string;
-  }
+  };
 }>) {
   const searchParams = useSearchParams();
 
@@ -18,6 +19,7 @@ export default function RootLayout({
 
   return (
     <div className="flex flex-col h-screen">
+      <Navbar />
       <div className="flex">
         <Sidebar
           isOpen={isOpen!}

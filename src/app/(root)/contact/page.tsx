@@ -15,10 +15,10 @@ const page = () => {
       </div>
       <div className="bg-white flex flex-col w-full max-w-[600px] px-5">
         <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-          Feedback
+          Ask for a product?
         </h2>
         <p className="leading-relaxed mb-5 text-gray-600">
-          Post-ironic portland shabby chic echo park, banjo fashion axe
+          Just go and fill the details & will get in touch with you within an hour!
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-600">

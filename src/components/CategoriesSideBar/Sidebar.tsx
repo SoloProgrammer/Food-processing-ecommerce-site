@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./style.module.css";
 import categories from "@/data/categories.json";
 import Link from "next/link";
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils";
 
 type SidebarProps = {
   slug: string;
