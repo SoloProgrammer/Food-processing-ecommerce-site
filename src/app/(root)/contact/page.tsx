@@ -1,13 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import ContactImage from "@/assests/images/contact.png";
 
 const page = () => {
   return (
     <div className="flex w-full items-center justify-center py-0 md:py-10 md:gap-10 flex-wrap">
       <div className="w-[400px]">
         <Image
-          src={ContactImage}
+          src={"/assests/images/contact.png"}
           alt="contact"
           fill
           className="!relative object-contain"

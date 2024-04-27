@@ -19,12 +19,12 @@ const Sidebar = ({ slug, className, isOpen = "false" }: SidebarProps) => {
             isOpen !== "true"
               ? "opacity-0 select-none pointer-events-none"
               : "opacity-70"
-          } w-full z-10 h-full fixed mds:hidden bg-black top-0 transition-opacity duration-200`}
+          } w-full z-10 h-full fixed mds:hidden bg-black top-0 transition-opacity`}
         />
       </Link> 
       <aside
         style={{
-          transition: "left 0.4s cubic-bezier(0.65, 0, 0.35, 1)",
+          transition: "left 0.3s cubic-bezier(0.65, 0, 0.35, 1)",
         }}
         className={cn(
           `${styles.sideBar} ${

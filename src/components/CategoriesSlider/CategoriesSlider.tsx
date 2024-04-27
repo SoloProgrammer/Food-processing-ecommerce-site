@@ -4,7 +4,6 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import categories from "@/data/categories.json";
-import { ProductCategory } from "@/types/types";
 import Link from "next/link";
 import Image from "next/image";
 

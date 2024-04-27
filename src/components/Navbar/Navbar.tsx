@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import Logo from "@/assests/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { CgMenuRight } from "react-icons/cg";
@@ -45,9 +44,11 @@ const Navbar = () => {
     <header className="sticky top-0 z-20 flex px-5 md:px-20 py-2 items-center justify-between bg-white shadow-md">
       <Link href={"/"}>
         <Image
-          src={Logo}
+          src={"/assests/images/logo.png"}
           alt="logo"
-          className="w-[60px] md:w-[100px] hue-rotate-[197deg]"
+          width={100}
+          height={100}
+          className="w-[80px] hue-rotate-[197deg]"
         />
       </Link>
       <nav
