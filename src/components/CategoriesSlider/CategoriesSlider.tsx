@@ -12,11 +12,16 @@ const CategoriesSlider = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      breakpoint: { max: 3000, min: 1400 },
+      items: 6,
+    },
+    largeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 2000, min: 1400 },
+      items: 6,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 2000, min: 1024 },
       items: 4,
     },
     tablet: {
