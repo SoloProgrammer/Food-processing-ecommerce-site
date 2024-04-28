@@ -1,5 +1,6 @@
 import { roboto } from "@/fonts/fonts";
 import "../(root)/globals.css";
+import Navbar from "@/components/Navbar/Navbar";
 
 export default function RootLayout({
   children,
@@ -8,7 +9,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

@@ -12,7 +12,7 @@ const CategoriesSlider = () => {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 3000, min: 1400 },
-      items: 6,
+      items: 7,
     },
     largeDesktop: {
       // the naming can be any, depends on you.
