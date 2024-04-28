@@ -1,16 +1,12 @@
 "use client";
 
 import { ImageType } from "@/types/types";
-import React, {
-  LegacyRef,
-  forwardRef,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import React, { LegacyRef, forwardRef } from "react";
 
 import styles from "./Slider.module.css";
 import Image from "next/image";
+import { isMobileScreen } from "@/lib/utils";
+import useImageSlider from "@/hooks/use-image-slider";
 
 type SliderProps = {
   images: ImageType[];
@@ -18,47 +14,8 @@ type SliderProps = {
   duration?: number;
 };
 const Slider = ({ images, autoPlay = false, duration = 3000 }: SliderProps) => {
-  const [currSlide, setCurrSlide] = useState(1);
-  const inidicatorRef = useRef<HTMLDivElement>(null);
-
-  // Initiating tab indicator default position
-  useEffect(() => {
-    if (inidicatorRef.current) {
-      inidicatorRef.current.style.left = "8px";
-      inidicatorRef.current.style.width = "165px";
-    }
-  }, [inidicatorRef.current]);
-
-  const handleSlideChange = (
-    e: React.MouseEvent<HTMLDivElement, MouseEvent>,
-    i: number
-  ) => {
-    setCurrSlide(i + 1);
-  };
-
-  const tabRefs = useRef<HTMLDivElement[]>([]);
-
-  // autoplay slider logic
-  useEffect(() => {
-    if (!autoPlay) return;
-
-    const sliderTimer = setInterval(() => {
-      setCurrSlide((prev) => (prev > 3 ? 1 : prev + 1));
-    }, duration);
-
-    return () => {
-      clearInterval(sliderTimer);
-    };
-  }, [currSlide]);
-
-  // autoplay indicator tab logic
-  useEffect(() => {
-    const currTab = tabRefs.current[currSlide - 1] as HTMLDivElement;
-    if (inidicatorRef.current) {
-      inidicatorRef.current.style.left = `${currTab.offsetLeft}px`;
-      inidicatorRef.current.style.width = `${currTab.offsetWidth}px`;
-    }
-  }, [tabRefs, currSlide, inidicatorRef]);
+  const { currSlide, handleSlideChange, inidicatorRef, tabRefs } =
+    useImageSlider(duration, autoPlay);
 
   // ImageSliderOffset value
   const ImageSlideOffset = `translateX(-${(currSlide - 1) * 100}%)`;
@@ -83,6 +40,7 @@ const Slider = ({ images, autoPlay = false, duration = 3000 }: SliderProps) => {
         tabs={images.map((img) => img.title)}
         tabRefs={tabRefs}
         ref={inidicatorRef}
+        currTab={currSlide}
       />
     </div>
   );
@@ -95,16 +53,17 @@ type SliderTabsProps = {
   ) => void;
   tabs: String[];
   tabRefs: React.MutableRefObject<HTMLDivElement[]>;
+  currTab: number;
 };
 
 const SliderTabs = forwardRef(
   (
-    { handleTabChange, tabs, tabRefs }: SliderTabsProps,
+    { handleTabChange, tabs, tabRefs, currTab }: SliderTabsProps,
     indicatorRef: LegacyRef<HTMLDivElement>
   ) => {
     return (
       <div className="hidden md:flex w-full justify-center mt-2">
-        <div className="flex items-center lg:gap-4 md:gap-1 mx-2 px-2 rounded-lg justify-center bg-gray-100 py-2 overflow-x-auto relative border-solid border-[1px] border-gray-300">
+        <div className="flex items-center lg:gap-4 md:gap-1 mx-2 px-2 rounded-lg mds:justify-center bg-gray-100 py-2 overflow-x-auto relative border-solid border-[1px] border-gray-300 justify-between">
           {tabs.map((t, i) => (
             <div
               ref={(el) => {
@@ -112,8 +71,9 @@ const SliderTabs = forwardRef(
               }}
               onClick={(e) => handleTabChange(e, i)}
               key={i}
-              className={`md:px-7  lg:px-10 py-1 rounded-md cursor-pointer whitespace-nowrap z-10`}
+              className={`px-5 md:px-7 lg:px-10 py-1 rounded-md cursor-pointer whitespace-nowrap z-10 text-sm mds:text-lg`}
             >
+              {/* {isMobileScreen() ? (currTab !== i + 1 ? "○" : t) : t} */}
               {t}
             </div>
           ))}
