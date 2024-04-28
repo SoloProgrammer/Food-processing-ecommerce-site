@@ -48,7 +48,7 @@ const Navbar = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-[80px] hue-rotate-[197deg]"
+          className="w-[90px] md:w-[100px] h-full hue-rotate-[197deg]"
         />
       </Link>
       <nav
